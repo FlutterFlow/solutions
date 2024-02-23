@@ -12,6 +12,13 @@ There is an API call that gives us the file data in the response. The frontend w
 
 **Loom Video (Demo + Explanation)**
 
-<div style="position: relative; padding-bottom: 64.90384615384616%; height: 0;"><iframe src="https://www.loom.com/embed/d02b1445dce54e1da6a8feba474a3ce2?sid=fda353f0-c7e8-4609-8b61-6b92d4027a58" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div>
+    <a href="https://www.loom.com/share/d02b1445dce54e1da6a8feba474a3ce2">
+      <p>Download File from API Response - FlutterFlow - Flutter Web App - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/d02b1445dce54e1da6a8feba474a3ce2">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/d02b1445dce54e1da6a8feba474a3ce2-with-play.gif">
+    </a>
+  </div>
 
 
