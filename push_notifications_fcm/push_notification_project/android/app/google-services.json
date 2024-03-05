@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "132300664508",
+    "project_id": "push-notification-test-1751d",
+    "storage_bucket": "push-notification-test-1751d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132300664508:android:73c03ee295c36d02422ab9",
+        "android_client_info": {
+          "package_name": "solutions.flutterflow.pushnotificationproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGLuu8cCOmGXipLfzZf0WfTxQtfiC_oAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
