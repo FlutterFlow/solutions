@@ -17,6 +17,8 @@ app.get('/api/download', (req, res) => {
         fs.readFile(pdfFilePath, (err, pdfData) => {
             res.setHeader('Content-Type', 'application/pdf');
             res.setHeader('Content-Disposition', `attachment; filename="${pdfFilename}"`);
+            res.setHeader('Filename', pdfFilename);
+            res.setHeader("Access-Control-Expose-Headers", "*");
             res.send(pdfData);
         });
 
@@ -27,6 +29,8 @@ app.get('/api/download', (req, res) => {
         fs.readFile(excelFilePath, (err, excelData) => {
             res.setHeader('Content-Type', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
             res.setHeader('Content-Disposition', `attachment; filename="${excelFilename}"`);
+            res.setHeader('Filename', excelFilename);
+            res.setHeader("Access-Control-Expose-Headers", "*");
             res.send(excelData);
         });
 
